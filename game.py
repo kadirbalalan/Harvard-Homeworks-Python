@@ -9,8 +9,8 @@ while True:
             continue
     except ValueError:
         continue
+    p = random.randint(1, n)
     while True:
-        p = random.randint(1, n)
         try:
             g = int(input("Guess: "))
         except ValueError:
